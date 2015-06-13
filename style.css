@@ -1,0 +1,55 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+p {
+	font-size: 16px;
+}
+
+.line {
+	border-width: 3px;
+	color: #BCBBBB;
+}
+
+.title {
+	font-size: 60px;
+	font-weight: 100;
+	margin-top: 40px;
+}
+
+.secondTitle {
+	color: #BCBBBB;
+	margin-top: 30px;
+}
+
+.logo {
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 991px){
+	#featuredWorks{
+		text-align: left;
+	}
+	#bigTitle{
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.title{
+		margin-top: 15px;
+		font-size: 35px
+	}
+	h2{
+		font-size: 24px;
+	}
+	h3{
+		font-size: 20px;
+	}
+}
